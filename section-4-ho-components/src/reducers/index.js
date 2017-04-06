@@ -1,8 +1,8 @@
 import { combineReducers } from 'redux';
-import commentsReducer from './comments';
+import authenicationReducer from './authentication';
 
 const rootReducer = combineReducers({
-  comments: commentsReducer
+  authenticated: authenicationReducer
 });
 
 export default rootReducer;
